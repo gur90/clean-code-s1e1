@@ -34,7 +34,7 @@ body {
 .task-wrapper {
     display: flex;
 }
-ul {
+.list {
     margin:0;
     padding: 0px;
 }
@@ -93,7 +93,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.list-li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -102,20 +102,20 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
+.list-li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.list-li > input[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
+.list-li > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.list-li >    input[type="text"] {
     width: 226px
 }
 button.delete img {
