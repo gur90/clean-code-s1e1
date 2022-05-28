@@ -111,16 +111,16 @@ input#new-task {
     vertical-align: middle;
 }
 
-.list-li > input[type="checkbox"] {
+.list-li > .check {
     margin: 0 10px;
 }
-.list-li > label {
+.list-li > .task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.list-li >    input[type="text"] {
+.list-li > .txt {
     width: 226px;
 }
 button.delete img {
