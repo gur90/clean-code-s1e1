@@ -22,12 +22,12 @@ var createNewTaskElement=function(taskString){
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
-    checkBox.className = "check"
+    checkBox.className = "check";
     //label
     var label=document.createElement("label");//label
     //input (text)
     var editInput=document.createElement("input");//text
-    editInput.className = "txt"
+    editInput.className = "txt";
     //button.edit
     var editButton=document.createElement("button");//edit button
 
